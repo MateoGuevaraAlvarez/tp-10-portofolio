@@ -1,0 +1,46 @@
+/* Estilos para Choclias.jsx */
+.choclias-container {
+    margin-top: 50px;
+  }
+  .titulo{
+    text-align: center;
+  }
+  .project-card {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+    margin-top: 40px;
+  }
+
+  .favoritos-container{
+    margin-top: 50px;
+  }
+.welcome-message {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.inicio-sesion{
+  display: grid;
+  place-items: center;
+}
+/* Estilos para el botón de cerrar sesión */
+.logout-button {
+  background-color: #ff3333; /* Color de fondo rojo */
+  color: white; /* Color del texto blanco */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Esquinas redondeadas */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+}
+
+/* Cambia el color de fondo del botón al pasar el mouse */
+.logout-button:hover {
+  background-color: #cc0000; /* Color de fondo rojo oscuro al pasar el mouse */
+}
